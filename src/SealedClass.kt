@@ -1,14 +1,4 @@
 
-//data class
-/*data class Person(val name: String , var age: Int) {
-}
-
-fun main() {
-    val personinfo = Person("John",50)
-    println(personinfo)
-
-}*/
-
 //sealed class
 sealed class Shape{
     class Circle(var radius: Float): Shape()
